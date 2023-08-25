@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-import Index from "../components/Admin/Master.vue";
+import Index from "../components/Admin/dashboard/Master.vue";
 // import Login from "../components/Auth/Login.vue";
 // import Register from "../components/Auth/Register.vue";
 // import Index from "../components/frontend/index.vue";
