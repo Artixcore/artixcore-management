@@ -1,6 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-import Index from "../components/Admin/dashboard/Master.vue";
+// import Index from "../components/";
+
+import Dashboard from "../components/Admin/dashboard/Master.vue";
+import Product from "../components/Admin/Products/CRUD/view.vue";
 // import Login from "../components/Auth/Login.vue";
 // import Register from "../components/Auth/Register.vue";
 // import Index from "../components/frontend/index.vue";
@@ -8,8 +11,15 @@ import Index from "../components/Admin/dashboard/Master.vue";
 const routes = [
     {
         path: "/",
-        component: Index,
+        component: Dashboard,
     },
+
+    // Dashboard
+    {
+        path: "/Product",
+        component: Product,
+    },
+
     // {
     //     path: "/Login",
     //     component: Login,

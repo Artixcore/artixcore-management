@@ -15,50 +15,86 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html">
+              <router-link class="nav-link" to="/Dashboard">
                 <span class="menu-title">Dashboard</span>
                 <i class="mdi mdi-home menu-icon"></i>
-              </a>
+              </router-link>
             </li>
+
             <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-                <span class="menu-title">Basic UI Elements</span>
+              <router-link class="nav-link" to="/Dashboard">
+                <span class="menu-title">User Management</span>
+                <i class="mdi mdi-crosshairs-gps menu-icon"></i>
+              </router-link>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="collapse" href="#Products" aria-expanded="false" aria-controls="Products">
+                <span class="menu-title">Products</span>
                 <i class="menu-arrow"></i>
                 <i class="mdi mdi-crosshairs-gps menu-icon"></i>
               </a>
-              <div class="collapse" id="ui-basic">
+              <div class="collapse" id="Products">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
+                  <li class="nav-item"> <router-link class="nav-link" to="/Product">Products</router-link></li>
+                  <li class="nav-item"> <router-link class="nav-link" to="">Categories</router-link></li>
+                  <li class="nav-item"> <router-link class="nav-link" to="">Unit</router-link></li>
+                  <li class="nav-item"> <router-link class="nav-link" to="">Brand</router-link></li>
+                  <li class="nav-item"> <router-link class="nav-link" to="">Warranties</router-link></li>
+                  <li class="nav-item"> <router-link class="nav-link" to="">Import Products</router-link></li>
                 </ul>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-                <span class="menu-title">Basic UI Elements</span>
+              <a class="nav-link" data-bs-toggle="collapse" href="#Customer" aria-expanded="false" aria-controls="Customer">
+                <span class="menu-title">Customer</span>
                 <i class="menu-arrow"></i>
                 <i class="mdi mdi-crosshairs-gps menu-icon"></i>
               </a>
-              <div class="collapse" id="ui-basic">
+              <div class="collapse" id="Customer">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
+                  <li class="nav-item"> <router-link class="nav-link" to="">Customers</router-link></li>
+                  <li class="nav-item"> <router-link class="nav-link" to="">Import Contacts</router-link></li>
+                  <li class="nav-item"> <router-link class="nav-link" to="">Customer Group</router-link></li>
                 </ul>
               </div>
             </li>
+
             <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-                <span class="menu-title">Basic UI Elements</span>
+              <a class="nav-link" data-bs-toggle="collapse" href="#Purchases" aria-expanded="false" aria-controls="Purchases">
+                <span class="menu-title">Purchases</span>
                 <i class="menu-arrow"></i>
                 <i class="mdi mdi-crosshairs-gps menu-icon"></i>
               </a>
-              <div class="collapse" id="ui-basic">
+              <div class="collapse" id="Purchases">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
+                  <li class="nav-item"> <router-link class="nav-link" to="">List Purchases</router-link></li>
+                  <li class="nav-item"> <router-link class="nav-link" to="">New Purchases</router-link></li>
+                  <li class="nav-item"> <router-link class="nav-link" to="">Return Purchases</router-link></li>
                 </ul>
               </div>
             </li>
+
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="collapse" href="#Sells" aria-expanded="false" aria-controls="Sells">
+                <span class="menu-title">Sales</span>
+                <i class="menu-arrow"></i>
+                <i class="mdi mdi-crosshairs-gps menu-icon"></i>
+              </a>
+              <div class="collapse" id="Sells">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"> <router-link class="nav-link" to="">List Sales</router-link></li>
+                  <li class="nav-item"> <router-link class="nav-link" to="">New Sales</router-link></li>
+                  <li class="nav-item"> <router-link class="nav-link" to="">Return Purchases</router-link></li>
+                  <li class="nav-item"> <router-link class="nav-link" to="">Discount</router-link></li>
+                  <li class="nav-item"> <router-link class="nav-link" to="">Taxes</router-link></li>
+                  <li class="nav-item"> <router-link class="nav-link" to="">Shipment</router-link></li>
+                  <li class="nav-item"> <router-link class="nav-link" to="">Import Sales</router-link></li>
+                  <li class="nav-item"> <router-link class="nav-link" to="">List Quotation</router-link></li>
+                </ul>
+              </div>
+            </li>
+
           </ul>
         </nav>
 </template>
