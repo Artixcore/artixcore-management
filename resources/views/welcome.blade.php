@@ -7,12 +7,9 @@
 
     {{-- <title>{{ $pageTitle ? $pageTitle : "Artixcore Management System" }}</title> --}}
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-
 
 </head>
+
 <body>
     <div id="app"></div>
     @vite('resources/js/app.js')
@@ -33,4 +30,5 @@
     <script src="{{ asset('admin') }}/assets/js/todolist.js"></script>
     <!-- End custom js for this page -->
 </body>
+
 </html>
