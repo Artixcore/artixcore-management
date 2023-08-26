@@ -195,7 +195,7 @@ import Footer from "../../Header/Footer.vue";
                     <div class="card">
                         <div class="card-body">
                             <div class="row g-3">
-                                <div class="col-md-8">
+                                <div class="col-md-6">
                                     <label for="Product" class="form-label"
                                         >Product Description:
                                         <span class="text-danger"
@@ -204,7 +204,7 @@ import Footer from "../../Header/Footer.vue";
                                     >
                                     <textarea name="" class="form-control"></textarea>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <label
                                         for="inputPassword4"
                                         class="form-label"
@@ -215,125 +215,62 @@ import Footer from "../../Header/Footer.vue";
                                     >
                                     <input type="file" class="form-control">
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <label
                                         for="inputPassword4"
                                         class="form-label"
-                                        >Sub-Category
+                                        >Product Images:
                                         <span class="text-danger"
                                             >*</span
                                         ></label
                                     >
-                                    <select name="" class="form-select">
-                                        <option selected>
-                                            Select Sub Category
-                                        </option>
-                                        <option value=""></option>
-                                    </select>
-                                </div>
-                                <div class="col-md-4">
-                                    <label for="inputAddress" class="form-label"
-                                        >Unit
-                                        <span class="text-danger"
-                                            >*</span
-                                        ></label
-                                    >
-                                    <select name="" class="form-select">
-                                        <option selected>Select Unit</option>
-                                        <option value=""></option>
-                                    </select>
-                                </div>
-                                <div class="col-md-4">
-                                    <label
-                                        for="inputAddress2"
-                                        class="form-label"
-                                        >Brand
-                                        <span class="text-danger"
-                                            >*</span
-                                        ></label
-                                    >
-                                    <select name="" class="form-select">
-                                        <option selected>Select Brand</option>
-                                        <option value=""></option>
-                                    </select>
-                                </div>
-                                <div class="col-md-4">
-                                    <label for="inputCity" class="form-label"
-                                        >Barcode Type
-                                        <span class="text-danger"
-                                            >*</span
-                                        ></label
-                                    >
-                                    <select name="" class="form-select">
-                                        <option selected>
-                                            Select Barcode Type
-                                        </option>
-                                        <option value=""></option>
-                                    </select>
-                                </div>
-                                <div class="col-md-4">
-                                    <label for="inputState" class="form-label"
-                                        >Locations
-                                        <span class="text-danger"
-                                            >*</span
-                                        ></label
-                                    >
-                                    <input
-                                        type="text"
-                                        name=""
-                                        class="form-control"
-                                    />
-                                </div>
-                                <div class="col-md-2">
-                                    <label for="inputZip" class="form-label"
-                                        >Quantity
-                                        <span class="text-danger"
-                                            >*</span
-                                        ></label
-                                    >
-                                    <input
-                                        type="text"
-                                        class="form-control"
-                                        id="inputZip"
-                                    />
+                                    <input type="file" class="form-control">
                                 </div>
 
-                                <div class="col-md-2">
-                                    <label for="inputZip" class="form-label"
-                                        >Alert Quantity
+                            </div>
+                        </div>
+                    </div>
+
+                    <br/>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row g-3">
+                                <div class="col-md-3">
+                                    <label for="inputAddress" class="form-label"
+                                        >Weight
                                         <span class="text-danger"
                                             >*</span
                                         ></label
                                     >
-                                    <input
-                                        type="text"
-                                        class="form-control"
-                                        id="inputZip"
-                                    />
+                                    <input type="text" class="form-control">
                                 </div>
-                                <div class="col-md-2">
-                                    <label for="inputZip" class="form-label"
-                                        >Price
+
+                                <div class="col-md-3">
+
+                                    Not For Sell
                                         <span class="text-danger"
                                             >*</span
-                                        ></label
-                                    >
-                                    <input
-                                        type="text"
-                                        class="form-control"
-                                        id="inputZip"
-                                    />
+                                        ><br/>
+                                        <input class="form-check-input" type="checkbox" value="">
                                 </div>
-                                <div class="col-md-2">
-                                    <label for="inputZip" class="form-label"
-                                        >Discount</label
+
+                                <div class="col-md-3">
+                                    <label for="inputAddress" class="form-label"
+                                        >IMEI (if applicable)
+                                        </label
                                     >
-                                    <input
-                                        type="text"
-                                        class="form-control"
-                                        id="inputZip"
-                                    />
+                                    <input type="text" class="form-control">
                                 </div>
+
+                                <div class="col-md-3">
+                                    <label for="inputAddress" class="form-label"
+                                        >Process or Service Time
+                                        </label
+                                    >
+                                    <input type="text" class="form-control">
+                                </div>
+
                             </div>
                         </div>
                     </div>

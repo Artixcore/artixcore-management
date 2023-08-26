@@ -10,6 +10,8 @@ import CreatePro from "../components/Admin/Products/CRUD/create.vue";
 // import Index from "../components/frontend/index.vue";
 
 const routes = [
+
+    // Admin
     {
         path: "/",
         component: Dashboard,
