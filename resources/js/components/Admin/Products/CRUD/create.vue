@@ -78,7 +78,7 @@ import Footer from "../../Header/Footer.vue";
                                             >*</span
                                         ></label
                                     >
-                                    <input type="file" class="form-control">
+                                    <input type="file" class="form-control" />
                                 </div>
 
                                 <div class="col-md-4">
@@ -188,9 +188,7 @@ import Footer from "../../Header/Footer.vue";
                         </div>
                     </div>
 
-
-                    <br/>
-
+                    <br />
 
                     <div class="card">
                         <div class="card-body">
@@ -202,7 +200,10 @@ import Footer from "../../Header/Footer.vue";
                                             >*</span
                                         ></label
                                     >
-                                    <textarea name="" class="form-control"></textarea>
+                                    <textarea
+                                        name=""
+                                        class="form-control"
+                                    ></textarea>
                                 </div>
                                 <div class="col-md-3">
                                     <label
@@ -213,7 +214,7 @@ import Footer from "../../Header/Footer.vue";
                                             >*</span
                                         ></label
                                     >
-                                    <input type="file" class="form-control">
+                                    <input type="file" class="form-control" />
                                 </div>
                                 <div class="col-md-3">
                                     <label
@@ -224,14 +225,13 @@ import Footer from "../../Header/Footer.vue";
                                             >*</span
                                         ></label
                                     >
-                                    <input type="file" class="form-control">
+                                    <input type="file" class="form-control" />
                                 </div>
-
                             </div>
                         </div>
                     </div>
 
-                    <br/>
+                    <br />
 
                     <div class="card">
                         <div class="card-body">
@@ -243,34 +243,91 @@ import Footer from "../../Header/Footer.vue";
                                             >*</span
                                         ></label
                                     >
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" />
                                 </div>
 
                                 <div class="col-md-3">
-
                                     Not For Sell
-                                        <span class="text-danger"
-                                            >*</span
-                                        ><br/>
-                                        <input class="form-check-input" type="checkbox" value="">
+                                    <span class="text-danger">*</span><br />
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        value=""
+                                    />
                                 </div>
 
                                 <div class="col-md-3">
                                     <label for="inputAddress" class="form-label"
                                         >IMEI (if applicable)
-                                        </label
-                                    >
-                                    <input type="text" class="form-control">
+                                    </label>
+                                    <input type="text" class="form-control" />
                                 </div>
 
                                 <div class="col-md-3">
                                     <label for="inputAddress" class="form-label"
                                         >Process or Service Time
-                                        </label
+                                    </label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br />
+
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row g-3">
+                                <div class="col-md-2">
+                                    <label for="inputAddress" class="form-label"
+                                        >Exc. tax:
+                                        <span class="text-danger"
+                                            >*</span
+                                        ></label
                                     >
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" />
                                 </div>
 
+                                <div class="col-md-2">
+                                    <label
+                                        for="inputAddress"
+                                        class="form-label"
+                                    >
+                                        Inc. tax:
+                                        <span class="text-danger"
+                                            >*</span
+                                        ></label
+                                    >
+
+                                    <input type="text" class="form-control" />
+                                </div>
+
+                                <div class="col-md-2">
+                                    <label for="inputAddress" class="form-label"
+                                        >X Margin(%)
+                                    </label>
+                                    <input type="text" class="form-control" />
+                                </div>
+
+                                <div class="col-md-2">
+                                    <label for="inputAddress" class="form-label"
+                                        >Default Selling Price's Exc. Tax
+                                    </label>
+                                    <input type="text" class="form-control" />
+                                </div>
+
+                                <div class="col-md-3">
+                                    <label for="inputAddress" class="form-label"
+                                        >Product Invoice Image from dealer
+                                    </label>
+                                    <input type="file" class="form-control" />
+                                </div>
+
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <button type="submit" class="btn btn-outline-success" style="float: right;;">Save</button>
+                                </div>
                             </div>
                         </div>
                     </div>
