@@ -13,17 +13,21 @@ const routes = [
     {
         path: "/",
         component: Dashboard,
+        meta: { title: 'Dashboard' }
     },
 
     // Product
     {
         path: "/Product",
+        // name:'api/Product',
         component: Product,
+        meta: { title: 'Product List' }
     },
 
     {
         path: "/Product/Create",
         component: CreatePro,
+        meta: { title: 'Create Product' }
     },
 
     // {
@@ -44,5 +48,12 @@ const router = createRouter({
     history: createWebHistory(),
     routes,
 });
+
+router.beforeEach((to, from, next) => {
+    if (to.meta.title) {
+        document.title = to.meta.title;
+    }
+    next();
+})
 
 export default router;

@@ -12,7 +12,8 @@ class ProductController extends Controller
      */
     public function index()
     {
-
+        $pageTitle = 'Product List';
+        return response()->json(['message' => $pageTitle]);
     }
 
     /**

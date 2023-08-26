@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    {{-- <title>{{ $pageTitle ? $pageTitle : "Artixcore Management System" }}</title> --}}
+    <link rel="icon" href="{{ asset('logo.jpg') }}" type="image/png">
+    {{-- <title>{{ $pageTitle }}</title> --}}
 
 
 </head>

@@ -42,7 +42,9 @@ import Footer from "../../Header/Footer.vue";
                     </div>
 
                     <div class="card">
-                        <div class="card-body"></div>
+                        <div class="card-body">
+                            {{ message }}
+                        </div>
                     </div>
                     <br />
                     <div class="card">
@@ -125,3 +127,28 @@ import Footer from "../../Header/Footer.vue";
         </div>
     </div>
 </template>
+<script>
+import axios from "axios";
+
+export default {
+  data() {
+    return {
+      message: ''
+    };
+  },
+  mounted() {
+    this.fetchData();
+  },
+  methods: {
+    fetchData() {
+      axios.get('/api/Product')
+        .then(response => {
+          this.message = response.data.message;
+        })
+        .catch(error => {
+          console.error(error);
+        });
+    }
+  }
+};
+</script>
