@@ -20,98 +20,138 @@ import Footer from "../../Header/Footer.vue";
                             >
                                 <i class="mdi mdi-home"></i>
                             </span>
-                           New Product
+                            New Product
                         </h3>
-
                     </div>
 
-                    <div class="card">
-                        <div class="card-body"></div>
-                    </div>
-                    <br />
                     <div class="card">
                         <div class="card-body">
                             <form class="row g-3">
                                 <div class="col-md-4">
-                                    <label for="inputEmail4" class="form-label"
-                                        >Product Name</label
+                                    <label for="Product" class="form-label"
+                                        >Product Name
+                                        <span class="text-danger"
+                                            >*</span
+                                        ></label
                                     >
-                                    <input
-                                        type="email"
-                                        class="form-control"
-                                        id="inputEmail4"
-                                    />
+                                    <input type="text" class="form-control" />
                                 </div>
                                 <div class="col-md-4">
                                     <label
                                         for="inputPassword4"
                                         class="form-label"
-                                        >Password</label
+                                        >Category
+                                        <span class="text-danger"
+                                            >*</span
+                                        ></label
                                     >
-                                    <input
-                                        type="password"
-                                        class="form-control"
-                                        id="inputPassword4"
-                                    />
+                                    <select name="" class="form-select">
+                                        <option selected>
+                                            Select Category
+                                        </option>
+                                        <option value=""></option>
+                                    </select>
                                 </div>
                                 <div class="col-md-4">
                                     <label
                                         for="inputPassword4"
                                         class="form-label"
-                                        >Password</label
+                                        >Sub-Category
+                                        <span class="text-danger"
+                                            >*</span
+                                        ></label
                                     >
-                                    <input
-                                        type="password"
-                                        class="form-control"
-                                        id="inputPassword4"
-                                    />
+                                    <select name="" class="form-select">
+                                        <option selected>
+                                            Select Sub Category
+                                        </option>
+                                        <option value=""></option>
+                                    </select>
                                 </div>
-                                <div class="col-12">
+                                <div class="col-md-4">
                                     <label for="inputAddress" class="form-label"
-                                        >Address</label
+                                        >Unit
+                                        <span class="text-danger"
+                                            >*</span
+                                        ></label
                                     >
-                                    <input
-                                        type="text"
-                                        class="form-control"
-                                        id="inputAddress"
-                                        placeholder="1234 Main St"
-                                    />
+                                    <select name="" class="form-select">
+                                        <option selected>Select Unit</option>
+                                        <option value=""></option>
+                                    </select>
                                 </div>
-                                <div class="col-12">
+                                <div class="col-md-4">
                                     <label
                                         for="inputAddress2"
                                         class="form-label"
-                                        >Address 2</label
+                                        >Brand
+                                        <span class="text-danger"
+                                            >*</span
+                                        ></label
                                     >
-                                    <input
-                                        type="text"
-                                        class="form-control"
-                                        id="inputAddress2"
-                                        placeholder="Apartment, studio, or floor"
-                                    />
+                                    <select name="" class="form-select">
+                                        <option selected>Select Brand</option>
+                                        <option value=""></option>
+                                    </select>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-4">
                                     <label for="inputCity" class="form-label"
-                                        >City</label
+                                        >Barcode Type
+                                        <span class="text-danger"
+                                            >*</span
+                                        ></label
                                     >
-                                    <input
-                                        type="text"
-                                        class="form-control"
-                                        id="inputCity"
-                                    />
+                                    <select name="" class="form-select">
+                                        <option selected>
+                                            Select Barcode Type
+                                        </option>
+                                        <option value=""></option>
+                                    </select>
                                 </div>
                                 <div class="col-md-4">
                                     <label for="inputState" class="form-label"
-                                        >State</label
+                                        >Locations</label
                                     >
-                                    <select id="inputState" class="form-select">
-                                        <option selected>Choose...</option>
-                                        <option>...</option>
-                                    </select>
+                                    <input
+                                        type="text"
+                                        name=""
+                                        class="form-control"
+                                    />
                                 </div>
                                 <div class="col-md-2">
                                     <label for="inputZip" class="form-label"
-                                        >Zip</label
+                                        >Quantity <span class="text-danger">*</span></label
+                                    >
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="inputZip"
+                                    />
+                                </div>
+
+                                <div class="col-md-2">
+                                    <label for="inputZip" class="form-label"
+                                        >Alert Quantity <span class="text-danger">*</span></label
+                                    >
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="inputZip"
+                                    />
+                                </div>
+                                <div class="col-md-2">
+                                    <label for="inputZip" class="form-label"
+                                        >Price <span class="text-danger">*</span></label
+                                    >
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="inputZip"
+                                    />
+                                </div>
+                                <div class="col-md-2">
+                                    <label for="inputZip" class="form-label"
+                                        >Discount</label
                                     >
                                     <input
                                         type="text"
