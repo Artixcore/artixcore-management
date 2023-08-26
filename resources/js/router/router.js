@@ -4,6 +4,7 @@ import { createRouter, createWebHistory } from "vue-router";
 
 import Dashboard from "../components/Admin/dashboard/Master.vue";
 import Product from "../components/Admin/Products/CRUD/view.vue";
+import CreatePro from "../components/Admin/Products/CRUD/create.vue";
 // import Login from "../components/Auth/Login.vue";
 // import Register from "../components/Auth/Register.vue";
 // import Index from "../components/frontend/index.vue";
@@ -14,10 +15,15 @@ const routes = [
         component: Dashboard,
     },
 
-    // Dashboard
+    // Product
     {
         path: "/Product",
         component: Product,
+    },
+
+    {
+        path: "/Product/Create",
+        component: CreatePro,
     },
 
     // {

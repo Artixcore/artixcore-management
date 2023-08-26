@@ -20,7 +20,7 @@ import Footer from "../../Header/Footer.vue";
                             >
                                 <i class="mdi mdi-home"></i>
                             </span>
-                            Product
+                           <router-link to="/Product" style="text-decoration: none;">Products</router-link>
                         </h3>
                         <nav aria-label="breadcrumb">
                             <ul class="breadcrumb">
@@ -29,17 +29,13 @@ import Footer from "../../Header/Footer.vue";
                                     aria-current="page"
                                 >
                                     <span></span
-                                    ><button
-                                        type="button"
-                                        class="btn btn-primary"
-                                        data-bs-toggle="modal"
-                                        data-bs-target="#staticBackdrop"
+                                    ><router-link
+                                        class="btn btn-outline-primary"
+                                        to="/Product/Create"
                                     >
-                                        Launch static backdrop modal
-                                    </button>
-                                    <i
-                                        class="mdi mdi-alert-circle-outline icon-sm text-primary align-middle"
-                                    ></i>
+                                        Add New Products
+                                    </router-link>
+
                                 </li>
                             </ul>
                         </nav>
