@@ -21,7 +21,7 @@ import Footer from "../../Header/Footer.vue";
                             >
                                 <i class="mdi mdi-home"></i>
                             </span>
-                            Dashboard
+                            Product
                         </h3>
                         <nav aria-label="breadcrumb">
                             <ul class="breadcrumb">
@@ -38,11 +38,8 @@ import Footer from "../../Header/Footer.vue";
                         </nav>
                     </div>
 
-                    <Card/>
 
-                    <Static/>
 
-                    <Table/>
 
 
                 </div>
